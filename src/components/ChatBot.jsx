@@ -144,7 +144,7 @@ Please provide helpful, specific information based on this data. If the user ask
 
         body: JSON.stringify({
 
-          model: 'claude-3-5-sonnet-20241022',
+          model: 'claude-3-5-sonnet-20240620',
 
           max_tokens: 1024,
 
