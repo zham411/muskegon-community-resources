@@ -1,16 +1,74 @@
-# React + Vite
+# Muskegon Community Resources
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A React web application providing information about food pantries, donation opportunities, and community resources in the Muskegon and Ottawa County areas.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Donation Schedule** - Find where and when to drop off food donations
+- **Partner Organizations** - Learn about local food assistance organizations
+- **Local Pantries** - Search food pantries by county with hours, locations, and contact info
+- **Feeding America Schedule** - Mobile pantry distribution events
+- **Really Really Free Market** - Information about monthly community events
+- **QR Code Generator** - Generate QR codes to share the app
+- **AI Chat Assistant** - Get help finding resources via chat
 
-## React Compiler
+## Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- React 19
+- Vite
+- Tailwind CSS v4
+- React Router
+- Lucide React (icons)
+- QRCode.react
+- Anthropic Claude API (for chat assistant)
 
-## Expanding the ESLint configuration
+## Getting Started
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Prerequisites
+
+- Node.js (version 18 or higher recommended)
+- npm or yarn
+
+### Installation
+
+1. Clone the repository:
+```bash
+git clone <your-repo-url>
+cd community-resources
+```
+
+2. Install dependencies:
+```bash
+npm install
+```
+
+3. Create a `.env` file in the root directory:
+```bash
+VITE_ANTHROPIC_API_KEY=your_api_key_here
+```
+
+4. Start the development server:
+```bash
+npm run dev
+```
+
+The app will be available at `http://localhost:5173`
+
+## Build for Production
+
+```bash
+npm run build
+```
+
+Preview the production build:
+```bash
+npm run preview
+```
+
+## Deployment
+
+This app is configured for deployment on Vercel. After deploying, update the QR code page with your production URL.
+
+## License
+
+MIT
