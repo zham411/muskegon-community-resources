@@ -152,7 +152,7 @@ export default function Sidebar({ isOpen, onClose }) {
 
             <p className="text-xs text-gray-500 text-center">
 
-              Muskegon Community Resources
+              FeedING The Lakeshore
 
               <br />
 

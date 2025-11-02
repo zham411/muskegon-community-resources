@@ -46,7 +46,7 @@ export default function ChatBot({ isOpen, onClose }) {
 
   const createContextPrompt = (userMessage) => {
 
-    const context = `You are a helpful assistant for the Muskegon Community Resources app. You help people find food pantries, donation locations, and community resources in Muskegon, Michigan.
+    const context = `You are a helpful assistant for the FeedING The Lakeshore app. You help people find food pantries, donation locations, and community resources in Muskegon, Michigan.
 
 
 

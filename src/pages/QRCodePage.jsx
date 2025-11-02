@@ -73,7 +73,7 @@ export default function QRCodePage() {
 
         <p className="text-gray-600">
 
-          Scan or download this QR code to share the Muskegon Community Resources app
+          Scan or download this QR code to share the FeedING The Lakeshore app
 
         </p>
 
