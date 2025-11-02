@@ -12,7 +12,7 @@ export const donationSchedule = [
 
     needs: "Meijer Gift Cards, Pull tab canned goods, ready to eat meals",
 
-    date: "11/2",
+    date: "11/3",
 
     time: "Donation Box"
 
