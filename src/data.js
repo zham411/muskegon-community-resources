@@ -676,7 +676,9 @@ export const muskegonPantries = [
 
     website: "https://cityheartministries.org/#contact",
 
-    hours: "T 9:30-11:30"
+    hours: "T 9:30-11:30",
+
+    lgbtqFriendly: true
 
   },
 
@@ -692,7 +694,9 @@ export const muskegonPantries = [
 
     hours: "T, Th 10:00-12:00",
 
-    notes: "MUST APPLY online. Requires ID, address, income, & expenses"
+    notes: "MUST APPLY online. Requires ID, address, income, & expenses",
+
+    lgbtqFriendly: true
 
   },
 
@@ -706,7 +710,9 @@ export const muskegonPantries = [
 
     hours: "Sun 3:00",
 
-    notes: "Community meal made for you & your loved ones. Year-round - follow up Facebook for location change updates during winter months"
+    notes: "Community meal made for you & your loved ones. Year-round - follow up Facebook for location change updates during winter months",
+
+    lgbtqFriendly: true
 
   },
 
@@ -722,7 +728,9 @@ export const muskegonPantries = [
 
     hours: "Mon-Thurs 8:00-3:00",
 
-    notes: "Available to everyone twice a month regardless of situation"
+    notes: "Available to everyone twice a month regardless of situation",
+
+    lgbtqFriendly: true
 
   },
 
@@ -750,7 +758,9 @@ export const muskegonPantries = [
 
     website: "https://shorelinechurchofchrist.org/",
 
-    hours: "T, Thu, Sat 10:00-3:00"
+    hours: "T, Thu, Sat 10:00-3:00",
+
+    lgbtqFriendly: true
 
   },
 
@@ -778,7 +788,9 @@ export const muskegonPantries = [
 
     website: "https://www.facebook.com/Thepeoplespantrymuskegon/",
 
-    hours: "24/7"
+    hours: "24/7",
+
+    lgbtqFriendly: true
 
   },
 
@@ -790,7 +802,9 @@ export const muskegonPantries = [
 
     phone: "231-747-8855",
 
-    notes: "Assistance for Emergency Situations only. Access pantry by calling to complete a basic form"
+    notes: "Assistance for Emergency Situations only. Access pantry by calling to complete a basic form",
+
+    lgbtqFriendly: true
 
   },
 
@@ -916,7 +930,9 @@ export const ottawaPantries = [
 
     hours: "M, W, F 11:00-5:00",
 
-    notes: "Requires photo ID with address. Serves Tricities area"
+    notes: "Requires photo ID with address. Serves Tricities area",
+
+    lgbtqFriendly: true
 
   },
 
@@ -972,7 +988,9 @@ export const ottawaPantries = [
 
     phone: "616-414-7057",
 
-    hours: "Open 24/7"
+    hours: "Open 24/7",
+
+    lgbtqFriendly: true
 
   },
 
@@ -984,7 +1002,9 @@ export const ottawaPantries = [
 
     phone: "616-414-9111",
 
-    hours: "Open 24/7"
+    hours: "Open 24/7",
+
+    lgbtqFriendly: true
 
   }
 

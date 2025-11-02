@@ -10,7 +10,12 @@ function PantryCard({ pantry }) {
 
     <div className="bg-white rounded-lg shadow-lg p-6 hover:shadow-xl transition-shadow">
 
-      <h3 className="text-lg font-bold text-teal-700 mb-3">{pantry.name}</h3>
+      <h3 className="text-lg font-bold text-teal-700 mb-3 flex items-center gap-2">
+        {pantry.name}
+        {pantry.lgbtqFriendly && (
+          <span className="text-lg" title="LGBTQ+ Friendly" aria-label="LGBTQ+ Friendly">🌈</span>
+        )}
+      </h3>
 
       
 
