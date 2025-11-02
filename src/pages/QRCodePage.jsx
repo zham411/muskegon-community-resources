@@ -6,7 +6,8 @@ import { Download, Share2 } from 'lucide-react';
 
 export default function QRCodePage() {
 
-  const appUrl = window.location.origin;
+  // Production URL for QR code - always points to Vercel deployment
+  const appUrl = 'https://feeding-the-lakeshore.vercel.app';
 
 
 
