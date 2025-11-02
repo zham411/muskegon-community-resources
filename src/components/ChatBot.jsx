@@ -132,15 +132,7 @@ Please provide helpful, specific information based on this data. If the user ask
 
     try {
 
-      const apiKey = import.meta.env.VITE_ANTHROPIC_API_KEY;
-
-      if (!apiKey) {
-
-        throw new Error('API key not configured');
-
-      }
-
-      const response = await fetch('https://api.anthropic.com/v1/messages', {
+      const response = await fetch('/api/chat', {
 
         method: 'POST',
 
@@ -148,15 +140,11 @@ Please provide helpful, specific information based on this data. If the user ask
 
           'Content-Type': 'application/json',
 
-          'x-api-key': apiKey,
-
-          'anthropic-version': '2023-06-01',
-
         },
 
         body: JSON.stringify({
 
-          model: 'claude-sonnet-4-20250514',
+          model: 'claude-3-5-sonnet-20241022',
 
           max_tokens: 1024,
 
@@ -166,7 +154,7 @@ Please provide helpful, specific information based on this data. If the user ask
 
               role: msg.role === 'assistant' ? 'assistant' : 'user',
 
-              content: msg.content
+              content: typeof msg.content === 'string' ? msg.content : msg.content
 
             })),
 
@@ -188,7 +176,11 @@ Please provide helpful, specific information based on this data. If the user ask
 
       if (!response.ok) {
 
-        throw new Error('Failed to get response');
+        const errorData = await response.json().catch(() => ({}));
+
+        console.error('API Error:', response.status, errorData);
+
+        throw new Error(errorData.error || errorData.error?.message || `API request failed: ${response.status}`);
 
       }
 
@@ -196,7 +188,7 @@ Please provide helpful, specific information based on this data. If the user ask
 
       const data = await response.json();
 
-      const assistantMessage = data.content[0].text;
+      const assistantMessage = data.content[0]?.text || data.content[0]?.type === 'text' ? data.content[0].text : 'I received your message but had trouble processing it.';
 
 
 
@@ -206,11 +198,23 @@ Please provide helpful, specific information based on this data. If the user ask
 
       console.error('Chat error:', error);
 
+      let errorMessage = "I'm sorry, I'm having trouble connecting right now. Please try again in a moment.";
+
+      if (error.message.includes('API key')) {
+
+        errorMessage = "The chat assistant is not configured. Please contact the administrator.";
+
+      } else if (error.message) {
+
+        errorMessage = `Error: ${error.message}`;
+
+      }
+
       setMessages(prev => [...prev, {
 
         role: 'assistant',
 
-        content: "I'm sorry, I'm having trouble connecting right now. Please try again in a moment."
+        content: errorMessage
 
       }]);
 
