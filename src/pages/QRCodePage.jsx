@@ -6,8 +6,6 @@ import { Download, Share2 } from 'lucide-react';
 
 export default function QRCodePage() {
 
-  // You'll replace this with your actual Vercel URL once deployed
-
   const appUrl = window.location.origin;
 
 
@@ -206,20 +204,6 @@ export default function QRCodePage() {
               <span>Copy URL</span>
 
             </button>
-
-          </div>
-
-
-
-          <div className="bg-teal-50 border-l-4 border-teal-600 p-4 rounded">
-
-            <p className="text-sm text-gray-700">
-
-              <strong>Tip:</strong> After deploying to Vercel, come back to this page to download 
-
-              a QR code that links to your production URL.
-
-            </p>
 
           </div>
 
