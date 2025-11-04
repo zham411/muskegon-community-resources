@@ -142,6 +142,60 @@ export const donationSchedule = [
 
     time: "Donation Box Kickoff event 12-4pm"
 
+  },
+
+  {
+
+    id: 9,
+
+    business: "The Healing Village",
+
+    mapUrl: "https://maps.app.goo.gl/nZ2Fg3BfkhgEA37FA",
+
+    organization: "Community Needs",
+
+    needs: "",
+
+    date: "11/3",
+
+    time: "Donation Box"
+
+  },
+
+  {
+
+    id: 10,
+
+    business: "Ivy Rehab",
+
+    mapUrl: "https://maps.app.goo.gl/Wvf6b6qyxLirKv5a6",
+
+    organization: "Providing Needs of Muskegon",
+
+    needs: "Gift Cards for fresh milk and eggs, Bread",
+
+    date: "11/3",
+
+    time: "Donation Box"
+
+  },
+
+  {
+
+    id: 11,
+
+    business: "St. Gregory's Episcopal Church",
+
+    mapUrl: "https://maps.app.goo.gl/39Nou4aiicxSjhgg7?g_st=ipc",
+
+    organization: "Community Needs",
+
+    needs: "",
+
+    date: "11/4",
+
+    time: "Donations can be made Tuesday and Thursday 9am-4:30pm"
+
   }
 
 ];
