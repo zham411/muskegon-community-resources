@@ -1,4 +1,4 @@
-import { ExternalLink, MapPin, Calendar, Package, DollarSign, Info } from 'lucide-react';
+import { ExternalLink, MapPin, Calendar, Package, DollarSign, Info, Mail, Facebook } from 'lucide-react';
 
 import { donationSchedule } from '../data';
 
@@ -149,9 +149,13 @@ export default function Home() {
 
                     </div>
 
-                  ) : (
+                  ) : item.time === 'Donation Box' ? (
 
                     <p className="text-gray-700">Available now through 2 weeks</p>
+
+                  ) : (
+
+                    <p className="text-gray-700">{item.time}</p>
 
                   )}
 
@@ -249,9 +253,13 @@ export default function Home() {
 
                     </div>
 
-                  ) : (
+                  ) : item.time === 'Donation Box' ? (
 
                     <p className="text-xs text-gray-700">Available for 2 weeks</p>
+
+                  ) : (
+
+                    <p className="text-xs text-gray-700">{item.time}</p>
 
                   )}
 
@@ -283,27 +291,60 @@ export default function Home() {
 
         <p className="text-gray-700 mb-4">
 
-          Support our mission with a financial contribution via Venmo or CashApp:
+          Support our mission with a financial contribution:
 
         </p>
 
-        <div className="grid md:grid-cols-2 gap-4">
+        <div className="space-y-4">
 
           <div className="bg-white rounded-lg p-4 shadow-md">
 
             <h3 className="font-semibold text-gray-900 mb-2">Venmo</h3>
 
-            <p className="text-teal-600 font-mono text-lg">@IndyFood</p>
+            <a
+              href="https://venmo.com/u/FeedINGtheLakeshore"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-teal-600 font-mono text-lg hover:text-teal-800 transition-colors inline-flex items-center space-x-2"
+            >
+              <span>@FeedINGtheLakeshore</span>
+              <ExternalLink className="h-4 w-4" />
+            </a>
 
           </div>
 
           <div className="bg-white rounded-lg p-4 shadow-md">
 
-            <h3 className="font-semibold text-gray-900 mb-2">CashApp</h3>
+            <h3 className="font-semibold text-gray-900 mb-2 flex items-center space-x-2">
+              <Mail className="h-5 w-5 text-teal-600" />
+              <span>Contact Us</span>
+            </h3>
 
-            <p className="text-teal-600 font-mono text-lg">FeedING the Lakeshore</p>
+            <a
+              href="mailto:FeedINGtheLakeshore@gmail.com"
+              className="text-teal-600 hover:text-teal-800 transition-colors"
+            >
+              FeedINGtheLakeshore@gmail.com
+            </a>
 
-            <p className="text-teal-600 font-mono text-sm mt-1">$JMHamza</p>
+          </div>
+
+          <div className="bg-white rounded-lg p-4 shadow-md">
+
+            <h3 className="font-semibold text-gray-900 mb-2 flex items-center space-x-2">
+              <Facebook className="h-5 w-5 text-teal-600" />
+              <span>Follow Us on Facebook</span>
+            </h3>
+
+            <a
+              href="https://www.facebook.com/people/Indy-Next-Gen/61578232028482/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-teal-600 hover:text-teal-800 transition-colors inline-flex items-center space-x-2"
+            >
+              <span>Indy Next Gen</span>
+              <ExternalLink className="h-4 w-4" />
+            </a>
 
           </div>
 

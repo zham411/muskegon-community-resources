@@ -196,6 +196,24 @@ export const donationSchedule = [
 
     time: "Donations can be made Tuesday and Thursday 9am-4:30pm"
 
+  },
+
+  {
+
+    id: 12,
+
+    business: "The Culinary Institute of Michigan",
+
+    mapUrl: "https://maps.app.goo.gl/9sm345mLHSgqTPAg6",
+
+    organization: "Community Needs",
+
+    needs: "Coffee, Tea, Seasonings, Pantry staples",
+
+    date: "11/3",
+
+    time: "Available now through 2 weeks, located in the Sweet Spot"
+
   }
 
 ];
