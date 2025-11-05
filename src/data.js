@@ -194,7 +194,7 @@ export const donationSchedule = [
 
     date: "11/4",
 
-    time: "Donations can be made Tuesday and Thursday 9am-4:30pm"
+    time: "Donations can be made Tuesday and Wednesday 9am-4:30pm"
 
   },
 
@@ -213,6 +213,42 @@ export const donationSchedule = [
     date: "11/3",
 
     time: "Available now through 2 weeks, located in the Sweet Spot"
+
+  },
+
+  {
+
+    id: 13,
+
+    business: "Whitehall City Hall",
+
+    mapUrl: "https://maps.app.goo.gl/LBxtTAKrEZcCV5odA",
+
+    organization: "Community Needs",
+
+    needs: "Coffee, Tea, Seasonings, Pantry staples",
+
+    date: "11/5",
+
+    time: "Available now through 2 weeks"
+
+  },
+
+  {
+
+    id: 14,
+
+    business: "White Lake Community Library",
+
+    mapUrl: "https://maps.app.goo.gl/LBxtTAKrEZcCV5odA",
+
+    organization: "Community Needs",
+
+    needs: "Diapers, Hygiene products, canned goods",
+
+    date: "11/5",
+
+    time: "Available now through 2 weeks"
 
   }
 

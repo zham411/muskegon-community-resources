@@ -95,23 +95,27 @@ export default function Home() {
 
                     <span className="font-medium text-gray-900">{item.business}</span>
 
-                    <a
+                    {item.mapUrl && (
 
-                      href={item.mapUrl}
+                      <a
 
-                      target="_blank"
+                        href={item.mapUrl}
 
-                      rel="noopener noreferrer"
+                        target="_blank"
 
-                      className="text-teal-600 hover:text-teal-800 transition-colors"
+                        rel="noopener noreferrer"
 
-                      title="Open in Google Maps"
+                        className="text-teal-600 hover:text-teal-800 transition-colors"
 
-                    >
+                        title="Open in Google Maps"
 
-                      <ExternalLink className="h-4 w-4" />
+                      >
 
-                    </a>
+                        <ExternalLink className="h-4 w-4" />
+
+                      </a>
+
+                    )}
 
                   </div>
 
@@ -187,23 +191,27 @@ export default function Home() {
 
                 <h3 className="text-lg font-bold text-gray-900">{item.business}</h3>
 
-                <a
+                {item.mapUrl && (
 
-                  href={item.mapUrl}
+                  <a
 
-                  target="_blank"
+                    href={item.mapUrl}
 
-                  rel="noopener noreferrer"
+                    target="_blank"
 
-                  className="inline-flex items-center space-x-1 bg-teal-600 text-white px-3 py-1 rounded-full text-sm hover:bg-teal-700 transition-colors"
+                    rel="noopener noreferrer"
 
-                >
+                    className="inline-flex items-center space-x-1 bg-teal-600 text-white px-3 py-1 rounded-full text-sm hover:bg-teal-700 transition-colors"
 
-                  <MapPin className="h-4 w-4" />
+                  >
 
-                  <span>Directions</span>
+                    <MapPin className="h-4 w-4" />
 
-                </a>
+                    <span>Directions</span>
+
+                  </a>
+
+                )}
 
               </div>
 
