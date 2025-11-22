@@ -24,24 +24,6 @@ export default function Home() {
 
     <div className="max-w-7xl mx-auto px-4 py-8">
 
-      <div className="mb-8">
-
-        <h1 className="text-3xl md:text-4xl font-bold text-gray-900 mb-2">
-
-          Where We Will Be
-
-        </h1>
-
-        <p className="text-gray-600">
-
-          Find donation drop-off locations throughout Muskegon County
-
-        </p>
-
-      </div>
-
-
-
       {/* Financial Donations Section */}
 
       <div className="mb-12 bg-gradient-to-r from-teal-50 to-teal-100 rounded-lg shadow-lg p-6 border-l-4 border-teal-600">
@@ -114,6 +96,24 @@ export default function Home() {
           </div>
 
         </div>
+
+      </div>
+
+
+
+      <div className="mb-8">
+
+        <h1 className="text-3xl md:text-4xl font-bold text-gray-900 mb-2">
+
+          Where We Will Be
+
+        </h1>
+
+        <p className="text-gray-600">
+
+          Find donation drop-off locations throughout Muskegon County
+
+        </p>
 
       </div>
 
