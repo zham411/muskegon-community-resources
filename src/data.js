@@ -14,7 +14,7 @@ export const donationSchedule = [
 
     date: "11/3",
 
-    time: "Donation Box"
+    time: "Available until Dec 1"
 
   },
 
@@ -33,24 +33,6 @@ export const donationSchedule = [
     date: "11/4",
 
     time: "Donation Box"
-
-  },
-
-  {
-
-    id: 3,
-
-    business: "Life Align Recovery Ranch",
-
-    mapUrl: "https://maps.app.goo.gl/wBzGucAaadZDKJf6A",
-
-    organization: "HW Farms",
-
-    needs: "Pull tab canned meats, Fruit Cups, Hormel Compleats",
-
-    date: "11/8",
-
-    time: "Donation Box Kickoff event 12-4pm"
 
   },
 
@@ -176,7 +158,7 @@ export const donationSchedule = [
 
     date: "11/3",
 
-    time: "Donation Box"
+    time: "Available until Dec 1"
 
   },
 
@@ -249,6 +231,42 @@ export const donationSchedule = [
     date: "11/5",
 
     time: "Available now through 2 weeks"
+
+  },
+
+  {
+
+    id: 15,
+
+    business: "Tenden Handcrafted Clothing & Goods",
+
+    mapUrl: "https://maps.app.goo.gl/MJnvkQyvfmCRru4r7",
+
+    organization: "Local Street Pantries",
+
+    needs: "Non-perishable foods, hygiene products, baby products, menstration products",
+
+    date: "11/15",
+
+    time: "Donation Box 11/15-11/29"
+
+  },
+
+  {
+
+    id: 16,
+
+    business: "Aldea",
+
+    mapUrl: "https://maps.app.goo.gl/mdjEmvx9XVi9qh5N7",
+
+    organization: "Citi Boi Corp",
+
+    needs: "Pantry staples, spices, gift cards for fresh foods",
+
+    date: "11/18",
+
+    time: "Donation Box 11/18-11/1"
 
   }
 
