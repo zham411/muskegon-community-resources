@@ -32,7 +32,7 @@ export const donationSchedule = [
 
     date: "11/4",
 
-    time: "Donation Box"
+    time: "Available until Dec 1"
 
   },
 
@@ -68,7 +68,7 @@ export const donationSchedule = [
 
     date: "11/17",
 
-    time: "Donation Box Kickoff event 1-5pm"
+    time: "Available until Dec 1"
 
   },
 
@@ -140,7 +140,7 @@ export const donationSchedule = [
 
     date: "11/3",
 
-    time: "Donation Box"
+    time: "Available until Dec 1"
 
   },
 
@@ -176,7 +176,7 @@ export const donationSchedule = [
 
     date: "11/4",
 
-    time: "Donations can be made Tuesday and Wednesday 9am-4:30pm"
+    time: "Donations can be made Tuesday and Wednesday 9am-4:30pm. Available until Dec 1"
 
   },
 
@@ -194,7 +194,7 @@ export const donationSchedule = [
 
     date: "11/3",
 
-    time: "Available now through 2 weeks, located in the Sweet Spot"
+    time: "Available until Dec 1"
 
   },
 
@@ -212,7 +212,7 @@ export const donationSchedule = [
 
     date: "11/5",
 
-    time: "Available now through 2 weeks"
+    time: "Available until Dec 1"
 
   },
 
@@ -230,7 +230,7 @@ export const donationSchedule = [
 
     date: "11/5",
 
-    time: "Available now through 2 weeks"
+    time: "Available until Dec 1"
 
   },
 
