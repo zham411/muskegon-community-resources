@@ -266,7 +266,7 @@ export const donationSchedule = [
 
     date: "11/18",
 
-    time: "Donation Box 11/18-11/1"
+    time: "Donation Box 11/18-12/1"
 
   }
 
