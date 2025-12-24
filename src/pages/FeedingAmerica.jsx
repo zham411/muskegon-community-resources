@@ -16,7 +16,7 @@ function ScheduleEvent({ event }) {
 
           <div className="flex items-center space-x-2 mb-1">
 
-            <Clock className="h-4 w-4 text-teal-600" />
+            <Clock className="h-4 w-4 text-terracotta-600" />
 
             <span className="font-bold text-gray-900">{event.time}</span>
 
@@ -46,7 +46,7 @@ function ScheduleEvent({ event }) {
 
           rel="noopener noreferrer"
 
-          className="bg-teal-600 hover:bg-teal-700 text-white px-4 py-2 rounded-lg text-sm font-medium transition-colors flex items-center space-x-1"
+          className="bg-terracotta-600 hover:bg-terracotta-700 text-white px-4 py-2 rounded-lg text-sm font-medium transition-colors flex items-center space-x-1"
 
         >
 
@@ -78,7 +78,7 @@ function CountySchedule({ title, schedule }) {
 
     <div className="mb-12">
 
-      <div className="bg-gradient-to-r from-teal-600 to-teal-700 text-white px-6 py-4 rounded-t-lg">
+      <div className="bg-gradient-to-r from-terracotta-600 to-terracotta-700 text-white px-6 py-4 rounded-t-lg">
 
         <h2 className="text-2xl font-bold">{title}</h2>
 
@@ -92,9 +92,9 @@ function CountySchedule({ title, schedule }) {
 
           <div key={index}>
 
-            <div className="flex items-center space-x-2 mb-4 pb-2 border-b-2 border-teal-100">
+            <div className="flex items-center space-x-2 mb-4 pb-2 border-b-2 border-cream-200">
 
-              <Calendar className="h-5 w-5 text-teal-600" />
+              <Calendar className="h-5 w-5 text-terracotta-600" />
 
               <h3 className="text-lg font-bold text-gray-900">{day.date}</h3>
 

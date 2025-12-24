@@ -92,6 +92,15 @@ export default function Sidebar({ isOpen, onClose }) {
 
 
 
+          {/* Logo */}
+          <div className="px-4 pt-6 pb-4 flex justify-center">
+            <img 
+              src="/logo.jpeg" 
+              alt="Feeding The Lakeshore Logo" 
+              className="h-16 w-auto"
+            />
+          </div>
+
           {/* Navigation */}
 
           <nav className="flex-1 px-4 py-6 space-y-2">
@@ -120,9 +129,9 @@ export default function Sidebar({ isOpen, onClose }) {
 
                       isActive(item.href)
 
-                        ? 'bg-teal-100 text-teal-800 font-semibold shadow-sm'
+                        ? 'bg-cream-200 text-terracotta-800 font-semibold shadow-sm'
 
-                        : 'text-gray-700 hover:bg-gray-100 hover:text-teal-700'
+                        : 'text-gray-700 hover:bg-gray-100 hover:text-terracotta-700'
 
                     }
 

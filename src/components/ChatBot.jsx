@@ -252,7 +252,7 @@ Please provide helpful, specific information based on this data. If the user ask
 
       {/* Header */}
 
-      <div className="bg-gradient-to-r from-teal-600 to-teal-700 text-white p-4 flex items-center justify-between">
+      <div className="bg-gradient-to-r from-terracotta-600 to-terracotta-700 text-white p-4 flex items-center justify-between">
 
         <h2 className="text-lg font-semibold">Community Assistant</h2>
 
@@ -260,7 +260,7 @@ Please provide helpful, specific information based on this data. If the user ask
 
           onClick={onClose}
 
-          className="p-2 hover:bg-teal-500 rounded-full transition-colors"
+          className="p-2 hover:bg-terracotta-500 rounded-full transition-colors"
 
           aria-label="Close chat"
 
@@ -294,7 +294,7 @@ Please provide helpful, specific information based on this data. If the user ask
 
                 message.role === 'user'
 
-                  ? 'bg-teal-600 text-white'
+                  ? 'bg-terracotta-600 text-white'
 
                   : 'bg-gray-100 text-gray-800'
 
@@ -316,7 +316,7 @@ Please provide helpful, specific information based on this data. If the user ask
 
             <div className="bg-gray-100 rounded-lg px-4 py-2">
 
-              <Loader2 className="h-5 w-5 animate-spin text-teal-600" />
+              <Loader2 className="h-5 w-5 animate-spin text-terracotta-600" />
 
             </div>
 
@@ -348,7 +348,7 @@ Please provide helpful, specific information based on this data. If the user ask
 
             placeholder="Ask me anything..."
 
-            className="flex-1 px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-teal-500"
+            className="flex-1 px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-terracotta-500"
 
             disabled={isLoading}
 
@@ -360,7 +360,7 @@ Please provide helpful, specific information based on this data. If the user ask
 
             disabled={isLoading || !input.trim()}
 
-            className="bg-teal-600 hover:bg-teal-700 disabled:bg-gray-300 text-white p-2 rounded-lg transition-colors"
+            className="bg-terracotta-600 hover:bg-terracotta-700 disabled:bg-gray-300 text-white p-2 rounded-lg transition-colors"
 
             aria-label="Send message"
 

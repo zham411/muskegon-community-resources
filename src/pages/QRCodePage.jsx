@@ -86,7 +86,7 @@ export default function QRCodePage() {
 
         <div className="bg-white rounded-lg shadow-lg p-8 flex flex-col items-center justify-center">
 
-          <div className="bg-white p-6 rounded-lg border-4 border-teal-600">
+          <div className="bg-white p-6 rounded-lg border-4 border-terracotta-600">
 
             <QRCodeSVG
 
@@ -110,7 +110,7 @@ export default function QRCodePage() {
 
             onClick={downloadQR}
 
-            className="mt-6 flex items-center space-x-2 bg-teal-600 hover:bg-teal-700 text-white px-6 py-3 rounded-lg font-semibold transition-colors"
+            className="mt-6 flex items-center space-x-2 bg-terracotta-600 hover:bg-terracotta-700 text-white px-6 py-3 rounded-lg font-semibold transition-colors"
 
           >
 
@@ -130,13 +130,13 @@ export default function QRCodePage() {
 
           <div className="bg-white rounded-lg shadow-lg p-6">
 
-            <h2 className="text-2xl font-bold text-teal-700 mb-4">How to Use</h2>
+            <h2 className="text-2xl font-bold text-terracotta-700 mb-4">How to Use</h2>
 
             <ol className="space-y-3 text-gray-700">
 
               <li className="flex items-start space-x-3">
 
-                <span className="flex-shrink-0 w-6 h-6 bg-teal-100 text-teal-700 rounded-full flex items-center justify-center font-bold text-sm">
+                <span className="flex-shrink-0 w-6 h-6 bg-cream-200 text-terracotta-700 rounded-full flex items-center justify-center font-bold text-sm">
 
                   1
 
@@ -148,7 +148,7 @@ export default function QRCodePage() {
 
               <li className="flex items-start space-x-3">
 
-                <span className="flex-shrink-0 w-6 h-6 bg-teal-100 text-teal-700 rounded-full flex items-center justify-center font-bold text-sm">
+                <span className="flex-shrink-0 w-6 h-6 bg-cream-200 text-terracotta-700 rounded-full flex items-center justify-center font-bold text-sm">
 
                   2
 
@@ -160,7 +160,7 @@ export default function QRCodePage() {
 
               <li className="flex items-start space-x-3">
 
-                <span className="flex-shrink-0 w-6 h-6 bg-teal-100 text-teal-700 rounded-full flex items-center justify-center font-bold text-sm">
+                <span className="flex-shrink-0 w-6 h-6 bg-cream-200 text-terracotta-700 rounded-full flex items-center justify-center font-bold text-sm">
 
                   3
 
@@ -178,7 +178,7 @@ export default function QRCodePage() {
 
           <div className="bg-white rounded-lg shadow-lg p-6">
 
-            <h2 className="text-2xl font-bold text-teal-700 mb-4">Share URL</h2>
+            <h2 className="text-2xl font-bold text-terracotta-700 mb-4">Share URL</h2>
 
             <div className="bg-gray-50 rounded-lg p-4 mb-4">
 

@@ -26,11 +26,11 @@ export default function Home() {
 
       {/* Financial Donations Section */}
 
-      <div className="mb-12 bg-gradient-to-r from-teal-50 to-teal-100 rounded-lg shadow-lg p-6 border-l-4 border-teal-600">
+      <div className="mb-12 bg-gradient-to-r from-cream-200 to-cream-300 rounded-lg shadow-lg p-6 border-l-4 border-terracotta-600">
 
         <div className="flex items-center space-x-3 mb-4">
 
-          <DollarSign className="h-6 w-6 text-teal-600" />
+          <DollarSign className="h-6 w-6 text-terracotta-600" />
 
           <h2 className="text-2xl font-bold text-gray-900">Make a Financial Donation</h2>
 
@@ -52,7 +52,7 @@ export default function Home() {
               href="https://venmo.com/u/FeedINGtheLakeshore"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-teal-600 font-mono text-lg hover:text-teal-800 transition-colors inline-flex items-center space-x-2"
+              className="text-terracotta-600 font-mono text-lg hover:text-terracotta-800 transition-colors inline-flex items-center space-x-2"
             >
               <span>@FeedINGtheLakeshore</span>
               <ExternalLink className="h-4 w-4" />
@@ -63,13 +63,13 @@ export default function Home() {
           <div className="bg-white rounded-lg p-4 shadow-md">
 
             <h3 className="font-semibold text-gray-900 mb-2 flex items-center space-x-2">
-              <Mail className="h-5 w-5 text-teal-600" />
+              <Mail className="h-5 w-5 text-terracotta-600" />
               <span>Contact Us</span>
             </h3>
 
             <a
               href="mailto:FeedINGtheLakeshore@gmail.com"
-              className="text-teal-600 hover:text-teal-800 transition-colors"
+              className="text-terracotta-600 hover:text-terracotta-800 transition-colors"
             >
               FeedINGtheLakeshore@gmail.com
             </a>
@@ -79,7 +79,7 @@ export default function Home() {
           <div className="bg-white rounded-lg p-4 shadow-md">
 
             <h3 className="font-semibold text-gray-900 mb-2 flex items-center space-x-2">
-              <Facebook className="h-5 w-5 text-teal-600" />
+              <Facebook className="h-5 w-5 text-terracotta-600" />
               <span>Follow Us on Facebook</span>
             </h3>
 
@@ -88,7 +88,7 @@ export default function Home() {
                 href="https://www.facebook.com/groups/903611492230560"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-teal-600 hover:text-teal-800 transition-colors inline-flex items-center space-x-2 block"
+                className="text-terracotta-600 hover:text-terracotta-800 transition-colors inline-flex items-center space-x-2 block"
               >
                 <span>Feeding the Lakeshore FB Group</span>
                 <ExternalLink className="h-4 w-4" />
@@ -98,7 +98,7 @@ export default function Home() {
                 href="https://www.facebook.com/TheGivingTableMuskegon"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-teal-600 hover:text-teal-800 transition-colors inline-flex items-center space-x-2 block"
+                className="text-terracotta-600 hover:text-terracotta-800 transition-colors inline-flex items-center space-x-2 block"
               >
                 <span>The Giving Table FB Group</span>
                 <ExternalLink className="h-4 w-4" />
@@ -137,7 +137,7 @@ export default function Home() {
 
         <table className="min-w-full divide-y divide-gray-200">
 
-          <thead className="bg-teal-600 text-white">
+          <thead className="bg-terracotta-600 text-white">
 
             <tr>
 
@@ -177,7 +177,7 @@ export default function Home() {
 
                         rel="noopener noreferrer"
 
-                        className="text-teal-600 hover:text-teal-800 transition-colors"
+                        className="text-terracotta-600 hover:text-terracotta-800 transition-colors"
 
                         title="Open in Google Maps"
 
@@ -199,7 +199,7 @@ export default function Home() {
 
                 <td className="px-6 py-4">
 
-                  <span className="inline-flex items-center px-3 py-1 rounded-full text-sm font-medium bg-teal-100 text-teal-800">
+                  <span className="inline-flex items-center px-3 py-1 rounded-full text-sm font-medium bg-cream-200 text-terracotta-800">
 
                     {item.date}
 
@@ -271,7 +271,7 @@ export default function Home() {
 
                     rel="noopener noreferrer"
 
-                    className="inline-flex items-center space-x-1 bg-teal-600 text-white px-3 py-1 rounded-full text-sm hover:bg-teal-700 transition-colors"
+                    className="inline-flex items-center space-x-1 bg-terracotta-600 text-white px-3 py-1 rounded-full text-sm hover:bg-terracotta-700 transition-colors"
 
                   >
 
@@ -295,7 +295,7 @@ export default function Home() {
 
               <div className="flex items-start space-x-2">
 
-                <Package className="h-5 w-5 text-teal-600 flex-shrink-0 mt-0.5" />
+                <Package className="h-5 w-5 text-terracotta-600 flex-shrink-0 mt-0.5" />
 
                 <div>
 
@@ -311,7 +311,7 @@ export default function Home() {
 
               <div className="flex items-start space-x-2">
 
-                <Calendar className="h-5 w-5 text-teal-600 flex-shrink-0 mt-0.5" />
+                <Calendar className="h-5 w-5 text-terracotta-600 flex-shrink-0 mt-0.5" />
 
                 <div className="flex-1">
 

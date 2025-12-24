@@ -34,7 +34,7 @@ export default function Organizations() {
 
           <div key={index} className="bg-white rounded-lg shadow-lg p-6 hover:shadow-xl transition-shadow">
 
-            <h2 className="text-xl font-bold text-teal-700 mb-3">{org.name}</h2>
+            <h2 className="text-xl font-bold text-terracotta-700 mb-3">{org.name}</h2>
 
             <p className="text-gray-700 mb-4 leading-relaxed">{org.description}</p>
 
@@ -52,7 +52,7 @@ export default function Organizations() {
 
                   rel="noopener noreferrer"
 
-                  className="inline-flex items-center space-x-2 text-teal-600 hover:text-teal-800 transition-colors"
+                  className="inline-flex items-center space-x-2 text-terracotta-600 hover:text-terracotta-800 transition-colors"
 
                 >
 
@@ -80,7 +80,7 @@ export default function Organizations() {
 
                     rel="noopener noreferrer"
 
-                    className="inline-flex items-center space-x-2 text-teal-600 hover:text-teal-800 transition-colors"
+                    className="inline-flex items-center space-x-2 text-terracotta-600 hover:text-terracotta-800 transition-colors"
 
                   >
 

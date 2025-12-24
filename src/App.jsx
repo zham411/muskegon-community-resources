@@ -32,7 +32,7 @@ function App() {
 
     <Router>
 
-      <div className="flex h-screen bg-gray-50">
+      <div className="flex h-screen bg-cream-500">
 
         <Sidebar isOpen={sidebarOpen} onClose={() => setSidebarOpen(false)} />
 
@@ -76,7 +76,7 @@ function App() {
 
           onClick={() => setChatOpen(true)}
 
-          className="fixed bottom-6 right-6 bg-teal-600 hover:bg-teal-700 text-white rounded-full p-4 shadow-lg transition-all duration-200 z-40"
+          className="fixed bottom-6 right-6 bg-terracotta-600 hover:bg-terracotta-700 text-white rounded-full p-4 shadow-lg transition-all duration-200 z-40"
 
           aria-label="Open chat assistant"
 

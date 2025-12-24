@@ -10,7 +10,7 @@ function PantryCard({ pantry }) {
 
     <div className="bg-white rounded-lg shadow-lg p-6 hover:shadow-xl transition-shadow">
 
-      <h3 className="text-lg font-bold text-teal-700 mb-3 flex items-center gap-2">
+      <h3 className="text-lg font-bold text-terracotta-700 mb-3 flex items-center gap-2">
         {pantry.name}
         {pantry.lgbtqFriendly && (
           <span className="text-lg" title="LGBTQ+ Friendly" aria-label="LGBTQ+ Friendly">🌈</span>
@@ -55,7 +55,7 @@ function PantryCard({ pantry }) {
 
             <Phone className="h-4 w-4 text-gray-500 flex-shrink-0" />
 
-            <a href={`tel:${pantry.phone}`} className="text-teal-600 hover:text-teal-800">
+            <a href={`tel:${pantry.phone}`} className="text-terracotta-600 hover:text-terracotta-800">
 
               {pantry.phone}
 
@@ -73,7 +73,7 @@ function PantryCard({ pantry }) {
 
             <Mail className="h-4 w-4 text-gray-500 flex-shrink-0" />
 
-            <a href={`mailto:${pantry.email}`} className="text-teal-600 hover:text-teal-800">
+            <a href={`mailto:${pantry.email}`} className="text-terracotta-600 hover:text-terracotta-800">
 
               {pantry.email}
 
@@ -129,7 +129,7 @@ function PantryCard({ pantry }) {
 
             rel="noopener noreferrer"
 
-            className="inline-flex items-center space-x-2 text-teal-600 hover:text-teal-800 transition-colors mt-2"
+            className="inline-flex items-center space-x-2 text-terracotta-600 hover:text-terracotta-800 transition-colors mt-2"
 
           >
 
@@ -179,7 +179,7 @@ export default function LocalPantries() {
 
       <div className="mb-12">
 
-        <div className="bg-gradient-to-r from-teal-600 to-teal-700 text-white px-6 py-4 rounded-t-lg">
+        <div className="bg-gradient-to-r from-terracotta-600 to-terracotta-700 text-white px-6 py-4 rounded-t-lg">
 
           <h2 className="text-2xl font-bold">Muskegon County Food Pantries</h2>
 
@@ -203,7 +203,7 @@ export default function LocalPantries() {
 
       <div>
 
-        <div className="bg-gradient-to-r from-teal-600 to-teal-700 text-white px-6 py-4 rounded-t-lg">
+        <div className="bg-gradient-to-r from-terracotta-600 to-terracotta-700 text-white px-6 py-4 rounded-t-lg">
 
           <h2 className="text-2xl font-bold">Ottawa County Food Pantries</h2>
 
