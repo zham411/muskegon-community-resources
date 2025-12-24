@@ -1,4 +1,4 @@
-import { ExternalLink, MapPin, Calendar, Package, DollarSign, Info, Mail, Facebook } from 'lucide-react';
+import { ExternalLink, MapPin, Calendar, Package, DollarSign, Mail, Facebook } from 'lucide-react';
 
 import { donationSchedule } from '../data';
 
@@ -83,15 +83,27 @@ export default function Home() {
               <span>Follow Us on Facebook</span>
             </h3>
 
-            <a
-              href="https://www.facebook.com/people/Indy-Next-Gen/61578232028482/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-teal-600 hover:text-teal-800 transition-colors inline-flex items-center space-x-2"
-            >
-              <span>Indy Next Gen</span>
-              <ExternalLink className="h-4 w-4" />
-            </a>
+            <div className="space-y-2">
+              <a
+                href="https://www.facebook.com/groups/903611492230560"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-teal-600 hover:text-teal-800 transition-colors inline-flex items-center space-x-2 block"
+              >
+                <span>Feeding the Lakeshore FB Group</span>
+                <ExternalLink className="h-4 w-4" />
+              </a>
+
+              <a
+                href="https://www.facebook.com/TheGivingTableMuskegon"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-teal-600 hover:text-teal-800 transition-colors inline-flex items-center space-x-2 block"
+              >
+                <span>The Giving Table FB Group</span>
+                <ExternalLink className="h-4 w-4" />
+              </a>
+            </div>
 
           </div>
 
@@ -115,23 +127,6 @@ export default function Home() {
 
         </p>
 
-      </div>
-
-
-
-      {/* Info Banner */}
-      <div className="mb-6 bg-blue-50 border-l-4 border-blue-500 rounded-lg p-4">
-        <div className="flex items-start space-x-3">
-          <Info className="h-5 w-5 text-blue-600 flex-shrink-0 mt-0.5" />
-          <div>
-            <p className="text-sm font-semibold text-blue-900 mb-1">About Donation Boxes</p>
-            <p className="text-sm text-blue-800">
-              All donation boxes are <strong>available for 2 weeks</strong> starting on the date listed. 
-              Some locations have <strong>kickoff events</strong> on the start date with specific times—these are special events, 
-              but you can still drop off donations anytime during the 2-week period.
-            </p>
-          </div>
-        </div>
       </div>
 
 
@@ -209,8 +204,6 @@ export default function Home() {
                     {item.date}
 
                   </span>
-
-                  <p className="text-xs text-gray-500 mt-1">Available for 2 weeks</p>
 
                 </td>
 

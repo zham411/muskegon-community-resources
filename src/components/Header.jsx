@@ -26,7 +26,7 @@ export default function Header({ onMenuClick }) {
 
           </button>
 
-          <h1 className="text-xl md:text-2xl font-bold">FeedING The Lakeshore</h1>
+          <h1 className="text-xl md:text-2xl font-bold">Feeding The Lakeshore</h1>
 
         </div>
 

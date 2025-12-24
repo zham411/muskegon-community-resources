@@ -150,7 +150,7 @@ export default function Sidebar({ isOpen, onClose }) {
 
             <p className="text-xs text-gray-500 text-center">
 
-              FeedING The Lakeshore
+              Feeding The Lakeshore
 
               <br />
 
