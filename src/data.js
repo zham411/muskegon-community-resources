@@ -2,168 +2,6 @@ export const donationSchedule = [
 
   {
 
-    id: 1,
-
-    business: "Fetch Brewing Co",
-
-    mapUrl: "https://maps.app.goo.gl/7JjeN9kfVsDmuzMg7",
-
-    organization: "Lebanon Lutheran Church",
-
-    needs: "Meijer Gift Cards, Pull tab canned goods, ready to eat meals",
-
-    date: "11/3",
-
-    time: "Available until Dec 1"
-
-  },
-
-  {
-
-    id: 2,
-
-    business: "Third Coast Vinyl",
-
-    mapUrl: "https://maps.app.goo.gl/obvWgpRR2LpuLD169",
-
-    organization: "Biking With Purpose",
-
-    needs: "Meat sticks, soft granola bars, peanut butter, jelly, bread, crackers",
-
-    date: "11/4",
-
-    time: "Available until Dec 1"
-
-  },
-
-  {
-
-    id: 4,
-
-    business: "Fresh Coast Counseling",
-
-    mapUrl: "https://maps.app.goo.gl/Mwm5VLZ8k6PoT3r77",
-
-    organization: "Mission for area people",
-
-    needs: "Meijer Gift Cards, Pull tab canned goods",
-
-    date: "11/12",
-
-    time: "Donation Box Kickoff event 1-5pm"
-
-  },
-
-  {
-
-    id: 5,
-
-    business: "The Healing Village",
-
-    mapUrl: "https://maps.app.goo.gl/nZ2Fg3BfkhgEA37FA",
-
-    organization: "Providing Needs of Muskegon",
-
-    needs: "Gift Cards for fresh milk and eggs, Bread",
-
-    date: "11/17",
-
-    time: "Available until Dec 1"
-
-  },
-
-  {
-
-    id: 6,
-
-    business: "The Coffee Factory",
-
-    mapUrl: "https://maps.app.goo.gl/pdos3o1BKo2pzRBP9",
-
-    organization: "Family Promise",
-
-    needs: "Ramen, Tuna and Chicken salad kits",
-
-    date: "11/19",
-
-    time: "Donation Box Kickoff event 10-2pm"
-
-  },
-
-  {
-
-    id: 7,
-
-    business: "Wasserman's Flowers and Gifts",
-
-    mapUrl: "https://maps.app.goo.gl/Tf1jKiuyfLvq3SEA8",
-
-    organization: "City Heart",
-
-    needs: "Pull tab canned meats, monetary donations",
-
-    date: "11/22",
-
-    time: "Donation Box Kickoff event 12-4pm"
-
-  },
-
-  {
-
-    id: 8,
-
-    business: "Tractor Supply Co.",
-
-    mapUrl: "https://maps.app.goo.gl/cdcTTNqn8qb7cMku6",
-
-    organization: "Holton Community Center",
-
-    needs: "Canned Meats, Canned Vegetables, Cereal, Hamburger, Tuna Helper, Canned Fruit and Pasta",
-
-    date: "11/22",
-
-    time: "Donation Box Kickoff event 12-4pm"
-
-  },
-
-  {
-
-    id: 9,
-
-    business: "The Healing Village",
-
-    mapUrl: "https://maps.app.goo.gl/nZ2Fg3BfkhgEA37FA",
-
-    organization: "Community Needs",
-
-    needs: "",
-
-    date: "11/3",
-
-    time: "Available until Dec 1"
-
-  },
-
-  {
-
-    id: 10,
-
-    business: "Ivy Rehab",
-
-    mapUrl: "https://maps.app.goo.gl/Wvf6b6qyxLirKv5a6",
-
-    organization: "Providing Needs of Muskegon",
-
-    needs: "Gift Cards for fresh milk and eggs, Bread",
-
-    date: "11/3",
-
-    time: "Available until Dec 1"
-
-  },
-
-  {
-
     id: 11,
 
     business: "St. Gregory's Episcopal Church",
@@ -172,83 +10,11 @@ export const donationSchedule = [
 
     organization: "Community Needs",
 
-    needs: "",
+    needs: "Men's and teen boy's winter gear including coats, snow pants, mittens, hat, scarves, boots and socks",
 
     date: "11/4",
 
-    time: "Donations can be made Tuesday and Wednesday 9am-4:30pm. Available until Dec 1"
-
-  },
-
-  {
-
-    id: 12,
-
-    business: "The Culinary Institute of Michigan",
-
-    mapUrl: "https://maps.app.goo.gl/9sm345mLHSgqTPAg6",
-
-    organization: "Community Needs",
-
-    needs: "Coffee, Tea, Seasonings, Pantry staples",
-
-    date: "11/3",
-
-    time: "Available until Dec 1"
-
-  },
-
-  {
-
-    id: 13,
-
-    business: "Whitehall City Hall",
-
-    mapUrl: "https://maps.app.goo.gl/LBxtTAKrEZcCV5odA",
-
-    organization: "Community Needs",
-
-    needs: "Coffee, Tea, Seasonings, Pantry staples",
-
-    date: "11/5",
-
-    time: "Available until Dec 1"
-
-  },
-
-  {
-
-    id: 14,
-
-    business: "White Lake Community Library",
-
-    mapUrl: "https://maps.app.goo.gl/LBxtTAKrEZcCV5odA",
-
-    organization: "Community Needs",
-
-    needs: "Diapers, Hygiene products, canned goods",
-
-    date: "11/5",
-
-    time: "Available until Dec 1"
-
-  },
-
-  {
-
-    id: 15,
-
-    business: "Tenden Handcrafted Clothing & Goods",
-
-    mapUrl: "https://maps.app.goo.gl/MJnvkQyvfmCRru4r7",
-
-    organization: "Local Street Pantries",
-
-    needs: "Non-perishable foods, hygiene products, baby products, menstration products",
-
-    date: "11/15",
-
-    time: "Donation Box 11/15-11/29"
+    time: "Ongoing. Donations can be made Tuesday and Wednesday 9am-4:30pm"
 
   },
 
@@ -266,7 +32,43 @@ export const donationSchedule = [
 
     date: "11/18",
 
-    time: "Donation Box 11/18-12/1"
+    time: "Ongoing"
+
+  },
+
+  {
+
+    id: 17,
+
+    business: "James D Valk DDS",
+
+    mapUrl: "https://maps.app.goo.gl/zWtpvzko8mS54qmm9?g_st=ipc",
+
+    organization: "The Giving Table",
+
+    needs: "Men's Winter clothing: Boots, Socks, Hats, Gloves, Snowpants, Coats",
+
+    date: "12/11-1/5",
+
+    time: "Donations accepted during business hours"
+
+  },
+
+  {
+
+    id: 18,
+
+    business: "Semlow Peak Performance Chiropractic",
+
+    mapUrl: "https://maps.app.goo.gl/5x36P66SZ6xTJUaj9",
+
+    organization: "The Community",
+
+    needs: "Cheese Crackers, Meat sticks, Shelf Stable ready to eat meals",
+
+    date: "12/15-1/5",
+
+    time: "Donations accepted during business hours"
 
   }
 
