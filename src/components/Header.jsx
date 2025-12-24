@@ -26,12 +26,6 @@ export default function Header({ onMenuClick }) {
 
           </button>
 
-          <img 
-            src="/logo.jpeg" 
-            alt="Feeding The Lakeshore Logo" 
-            className="h-10 md:h-12 w-auto"
-          />
-
           <h1 className="text-xl md:text-2xl font-bold">Feeding The Lakeshore</h1>
 
         </div>

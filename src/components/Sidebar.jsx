@@ -93,11 +93,11 @@ export default function Sidebar({ isOpen, onClose }) {
 
 
           {/* Logo */}
-          <div className="px-4 pt-6 pb-4 flex justify-center">
+          <div className="w-full pt-6 pb-4 flex justify-center bg-white">
             <img 
               src="/logo.jpeg" 
               alt="Feeding The Lakeshore Logo" 
-              className="h-16 w-auto"
+              className="w-full h-auto px-4"
             />
           </div>
 
