@@ -49,12 +49,12 @@ export default function Home() {
             <h3 className="font-semibold text-gray-900 mb-2">Venmo</h3>
 
             <a
-              href="https://venmo.com/u/FeedINGtheLakeshore"
+              href="https://venmo.com/u/FeedingtheLakeshore"
               target="_blank"
               rel="noopener noreferrer"
               className="text-terracotta-600 font-mono text-lg hover:text-terracotta-800 transition-colors inline-flex items-center space-x-2"
             >
-              <span>@FeedINGtheLakeshore</span>
+              <span>@FeedingtheLakeshore</span>
               <ExternalLink className="h-4 w-4" />
             </a>
 
@@ -68,10 +68,10 @@ export default function Home() {
             </h3>
 
             <a
-              href="mailto:FeedINGtheLakeshore@gmail.com"
+              href="mailto:FeedingtheLakeshore@gmail.com"
               className="text-terracotta-600 hover:text-terracotta-800 transition-colors"
             >
-              FeedINGtheLakeshore@gmail.com
+              FeedingtheLakeshore@gmail.com
             </a>
 
           </div>
