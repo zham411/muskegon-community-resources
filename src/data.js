@@ -172,7 +172,7 @@ export const feedingAmericaSchedule = {
 
     {
 
-      date: "Saturday, November 8, 2025",
+      date: "Saturday, January 3, 2026",
 
       events: [
 
@@ -180,27 +180,13 @@ export const feedingAmericaSchedule = {
 
           time: "10:00 AM",
 
-          type: "Walk Up",
-
-          location: "Beulah Missionary Baptist Church",
-
-          address: "2601 Manz Street, Muskegon, MI 49444",
-
-          mapUrl: "https://www.google.com/maps/dir/43.2047310,-86.2338248/"
-
-        },
-
-        {
-
-          time: "2:00 PM",
-
           type: "Drive Thru",
 
-          location: "Samuel Lutheran Church",
+          location: "First Congregational Church UCC",
 
-          address: "540 Houston Ave., Muskegon, MI 49441",
+          address: "1201 Jefferson Street, Muskegon, MI 49441",
 
-          mapUrl: "https://www.google.com/maps/dir/43.2285850,-86.2564572/"
+          mapUrl: "https://www.google.com/maps/search/?api=1&query=1201+Jefferson+Street+Muskegon+MI+49441"
 
         }
 
@@ -210,31 +196,7 @@ export const feedingAmericaSchedule = {
 
     {
 
-      date: "Monday, November 10, 2025",
-
-      events: [
-
-        {
-
-          time: "6:00 PM",
-
-          type: "Drive Thru",
-
-          location: "Laketon Bethel Reformed",
-
-          address: "1568 W Giles, Muskegon, MI 49445",
-
-          mapUrl: "https://www.google.com/maps/dir/43.2786887,-86.2813159/"
-
-        }
-
-      ]
-
-    },
-
-    {
-
-      date: "Friday, November 14, 2025",
+      date: "Friday, January 9, 2026",
 
       events: [
 
@@ -258,7 +220,79 @@ export const feedingAmericaSchedule = {
 
     {
 
-      date: "Saturday, November 15, 2025",
+      date: "Saturday, January 10, 2026",
+
+      events: [
+
+        {
+
+          time: "2:00 PM",
+
+          type: "Drive Thru",
+
+          location: "Samuel Lutheran Church",
+
+          address: "540 Houston Ave., Muskegon, MI 49441",
+
+          mapUrl: "https://www.google.com/maps/dir/43.2285850,-86.2564572/"
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      date: "Monday, January 12, 2026",
+
+      events: [
+
+        {
+
+          time: "6:00 PM",
+
+          type: "Drive Thru",
+
+          location: "Laketon Bethel Reformed",
+
+          address: "1568 W Giles, Muskegon, MI 49445",
+
+          mapUrl: "https://www.google.com/maps/dir/43.2786887,-86.2813159/"
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      date: "Friday, January 16, 2026",
+
+      events: [
+
+        {
+
+          time: "10:00 AM",
+
+          type: "Drive Thru",
+
+          location: "Discovering Christ Church",
+
+          address: "2330 Holton Road, Muskegon, MI 49445",
+
+          mapUrl: "https://www.google.com/maps/dir/43.2958941,-86.1981775/"
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      date: "Saturday, January 17, 2026",
 
       events: [
 
@@ -282,7 +316,7 @@ export const feedingAmericaSchedule = {
 
     {
 
-      date: "Monday, November 17, 2025",
+      date: "Monday, January 19, 2026",
 
       events: [
 
@@ -302,44 +336,6 @@ export const feedingAmericaSchedule = {
 
       ]
 
-    },
-
-    {
-
-      date: "Friday, November 21, 2025",
-
-      events: [
-
-        {
-
-          time: "10:00 AM",
-
-          type: "Drive Thru",
-
-          location: "Discovering Christ Church",
-
-          address: "2330 Holton Road, Muskegon, MI 49445",
-
-          mapUrl: "https://www.google.com/maps/dir/43.2958941,-86.1981775/"
-
-        },
-
-        {
-
-          time: "5:00 PM",
-
-          type: "Drive Thru",
-
-          location: "Calvin Christian Reformed Church",
-
-          address: "973 W. Norton Ave., Muskegon, MI 49441",
-
-          mapUrl: "https://www.google.com/maps/dir/43.1899243,-86.2680407/"
-
-        }
-
-      ]
-
     }
 
   ],
@@ -348,31 +344,7 @@ export const feedingAmericaSchedule = {
 
     {
 
-      date: "Thursday, November 6, 2025",
-
-      events: [
-
-        {
-
-          time: "4:30 PM",
-
-          type: "Drive Thru",
-
-          location: "Community Reformed Church of Zeeland - ARC",
-
-          address: "10376 Felch Street, Zeeland, MI 49464",
-
-          mapUrl: "https://www.google.com/maps/dir/42.8186673,-86.0377646/"
-
-        }
-
-      ]
-
-    },
-
-    {
-
-      date: "Friday, November 7, 2025",
+      date: "Friday, January 2, 2026",
 
       events: [
 
@@ -396,7 +368,55 @@ export const feedingAmericaSchedule = {
 
     {
 
-      date: "Saturday, November 8, 2025",
+      date: "Monday, January 5, 2026",
+
+      events: [
+
+        {
+
+          time: "5:30 PM",
+
+          type: "Walk Up",
+
+          location: "Holland SDA Church's Elementary School",
+
+          address: "11385 Ottogan Street, Holland, MI 49423",
+
+          mapUrl: "https://www.google.com/maps/search/?api=1&query=11385+Ottogan+Street+Holland+MI+49423"
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      date: "Thursday, January 8, 2026",
+
+      events: [
+
+        {
+
+          time: "4:30 PM",
+
+          type: "Drive Thru",
+
+          location: "Community Reformed Church of Zeeland - ARC",
+
+          address: "10376 Felch Street, Zeeland, MI 49464",
+
+          mapUrl: "https://www.google.com/maps/dir/42.8186673,-86.0377646/"
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      date: "Saturday, January 10, 2026",
 
       events: [
 
@@ -420,7 +440,31 @@ export const feedingAmericaSchedule = {
 
     {
 
-      date: "Tuesday, November 11, 2025",
+      date: "Monday, January 12, 2026",
+
+      events: [
+
+        {
+
+          time: "4:30 PM",
+
+          type: "Drive Thru",
+
+          location: "Holland High School",
+
+          address: "600 Van Raalte Ave., Holland, MI 49423",
+
+          mapUrl: "https://www.google.com/maps/dir/42.7737462,-86.1218746/"
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      date: "Tuesday, January 13, 2026",
 
       events: [
 
@@ -458,79 +502,7 @@ export const feedingAmericaSchedule = {
 
     {
 
-      date: "Saturday, November 15, 2025",
-
-      events: [
-
-        {
-
-          time: "10:00 AM",
-
-          type: "Drive Thru",
-
-          location: "Lighthouse Community Church",
-
-          address: "7624 Lake Michigan Drive, Allendale, MI 49401",
-
-          mapUrl: "https://www.google.com/maps/dir/42.9712116,-85.9756937/"
-
-        }
-
-      ]
-
-    },
-
-    {
-
-      date: "Monday, November 17, 2025",
-
-      events: [
-
-        {
-
-          time: "4:30 PM",
-
-          type: "Drive Thru",
-
-          location: "Holland High School",
-
-          address: "600 Van Raalte Ave., Holland, MI 49423",
-
-          mapUrl: "https://www.google.com/maps/dir/42.7737462,-86.1218746/"
-
-        }
-
-      ]
-
-    },
-
-    {
-
-      date: "Tuesday, November 18, 2025",
-
-      events: [
-
-        {
-
-          time: "6:00 PM",
-
-          type: "Drive Thru",
-
-          location: "Roosevelt Elementary School",
-
-          address: "175 W. Roosevelt Ave., Zeeland, MI 49464",
-
-          mapUrl: "https://www.google.com/maps/dir/42.8204833,-86.0249914/"
-
-        }
-
-      ]
-
-    },
-
-    {
-
-      date: "Friday, November 21, 2025",
+      date: "Friday, January 16, 2026",
 
       events: [
 
@@ -554,7 +526,7 @@ export const feedingAmericaSchedule = {
 
     {
 
-      date: "Saturday, November 22, 2025",
+      date: "Saturday, January 17, 2026",
 
       events: [
 
@@ -562,13 +534,37 @@ export const feedingAmericaSchedule = {
 
           time: "10:00 AM",
 
-          type: "Walk Up",
+          type: "Drive Thru",
 
-          location: "Third Christian Reformed Church",
+          location: "Lighthouse Community Church",
 
-          address: "10 West Central Avenue, Zeeland, MI 49464",
+          address: "7624 Lake Michigan Drive, Allendale, MI 49401",
 
-          mapUrl: "https://www.google.com/maps/dir/42.8102206,-86.0194267/"
+          mapUrl: "https://www.google.com/maps/dir/42.9712116,-85.9756937/"
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      date: "Tuesday, January 20, 2026",
+
+      events: [
+
+        {
+
+          time: "6:00 PM",
+
+          type: "Drive Thru",
+
+          location: "Roosevelt Elementary School",
+
+          address: "175 W. Roosevelt Ave., Zeeland, MI 49464",
+
+          mapUrl: "https://www.google.com/maps/dir/42.8204833,-86.0249914/"
 
         }
 
