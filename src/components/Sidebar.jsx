@@ -1,6 +1,6 @@
 import { Link, useLocation } from 'react-router-dom';
 
-import { Home, Users, MapPin, Calendar, Gift, X, QrCode } from 'lucide-react';
+import { Home, Users, MapPin, Calendar, X, QrCode } from 'lucide-react';
 
 
 
@@ -19,8 +19,6 @@ export default function Sidebar({ isOpen, onClose }) {
     { name: 'Local Pantries', href: '/pantries', icon: MapPin },
 
     { name: 'Feeding America Schedule', href: '/feeding-america', icon: Calendar },
-
-    { name: 'Really Really Free Market', href: '/rrfm', icon: Gift },
 
     { name: 'QR Code', href: '/qr-code', icon: QrCode },
 

@@ -14,8 +14,6 @@ import LocalPantries from './pages/LocalPantries';
 
 import FeedingAmerica from './pages/FeedingAmerica';
 
-import RRFM from './pages/RRFM';
-
 import ChatBot from './components/ChatBot';
 
 import QRCodePage from './pages/QRCodePage';
@@ -57,8 +55,6 @@ function App() {
               <Route path="/pantries" element={<LocalPantries />} />
 
               <Route path="/feeding-america" element={<FeedingAmerica />} />
-
-              <Route path="/rrfm" element={<RRFM />} />
 
               <Route path="/qr-code" element={<QRCodePage />} />
 
