@@ -10,7 +10,7 @@ export const donationSchedule = [
 
     organization: "Community Needs",
 
-    needs: "Men's and teen boy's winter gear including coats, snow pants, mittens, hat, scarves, boots and socks",
+    needs: "Non-perishable foods, Men's and teen boy's winter gear including coats, snow pants, mittens, hat, scarves, boots and socks",
 
     date: "11/4",
 
